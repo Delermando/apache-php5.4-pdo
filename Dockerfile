@@ -1,7 +1,7 @@
 FROM php:5.4-apache
 
 RUN apt-get update && \
-    DEBIAN_FRONTEND=noninteractive apt-get -yq install \
+        apt-get -yq install \
         curl \
         apache2 \
         php5-mysql \
